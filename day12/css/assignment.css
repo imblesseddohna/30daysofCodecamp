@@ -1,0 +1,50 @@
+.pos1{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 5px solid red;
+}
+.pos2{
+    position: absolute;
+    top: 80px;
+    right:0;
+    width: 200px;
+    height: 100px;
+    border: 5px solid violet;
+}
+.p1{
+    font-family: "Sofia", sans-serif;
+}
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p3 {
+    font-family: "Lucida Console", "Courier New",monospace;
+}
+.index{
+    position:absolute;
+    left:0px;
+    top:1150px;
+    z-index:-1;
+}
+.overflow {
+    position:center;
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    overflow:scroll;
+    text-align:justify;
+}
+.img2 {
+    float: left;
+}
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.p4{
+    text-align:justify;
+    color:red;
+}

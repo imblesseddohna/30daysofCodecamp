@@ -1,0 +1,12 @@
+div.main1{
+    background: linear-gradient(90deg,#00ffeb 0%,#073abb 100%);
+}
+div.main2{
+    display:flex;
+    justify-content: center;
+}
+.image:hover{
+    width:200px;
+    height:200px;
+    transform: rotate(2deg);
+}
